@@ -1,6 +1,6 @@
 import { Pagination, Modal } from "antd";
 import { useState } from "react";
-import CalendarTable from "./Calendar";
+import CalendarTable from "./calendar/Calendar";
 
 export default function ListPharmacyMobile() {
     const [modalOpen, setModalOpen] = useState(false);
