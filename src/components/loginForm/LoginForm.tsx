@@ -9,8 +9,7 @@ import { BsEye } from "react-icons/bs";
 
 export default function LoginForm() {
   const inputRef = useRef<HTMLInputElement | null>(null);
-  const [passwordType, setPasswordType] =
-    useState<HTMLInputTypeAttribute>("password");
+  const [passwordType, setPasswordType] = useState<HTMLInputTypeAttribute>("password");
 
   function changePasswordVisibility(ev: React.MouseEvent<HTMLButtonElement>) {
     ev.preventDefault();
